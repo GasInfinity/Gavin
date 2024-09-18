@@ -15,7 +15,7 @@
     combinePlugins.enable = true;
   };
 
-  globalOpts = {
+  opts = {
     number = true;
     relativenumber = false;
 

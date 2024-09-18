@@ -20,5 +20,6 @@
     ./lsp.nix
     ./neoclip.nix
     ./trouble.nix
+    ./sleuth.nix
   ];
 }
