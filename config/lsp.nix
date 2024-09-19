@@ -6,7 +6,7 @@
     servers = {
       nixd.enable = true;
       
-      csharp-ls.enable = true;
+      omnisharp.enable = true;
       zls.enable = true;
       lua-ls.enable = true;
       clangd.enable = true;
