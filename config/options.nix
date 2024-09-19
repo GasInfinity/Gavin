@@ -42,5 +42,9 @@
 
     completeopt = "menu,menuone,noinsert,noselect";
   };
-
+  
+  globals = {
+    c_syntax_for_h = true;
+    mapleader = " ";
+  };
 }

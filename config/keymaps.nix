@@ -35,5 +35,12 @@
         desc = "Focus Explorer";
       };
     }
+    {
+      action = { __raw = "vim.lsp.buf.rename"; };
+      key = "<leader>rn";
+      options = {
+        desc = "Refactor: Rename";
+      };
+    }
   ];
 }
