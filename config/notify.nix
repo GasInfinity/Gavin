@@ -1,6 +1,7 @@
 {
   plugins.notify = {
     enable = true;
-    timeout = 2000;
+    render = { __raw = "compact"; };
+    stages = "static";
   };
 }

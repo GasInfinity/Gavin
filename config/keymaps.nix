@@ -37,9 +37,30 @@
     }
     {
       action = { __raw = "vim.lsp.buf.rename"; };
-      key = "<leader>rn";
+      key = "<leader>lrn";
       options = {
-        desc = "Refactor: Rename";
+        desc = "LSP Refactor: Rename";
+      };
+    }
+    {
+      action = { __raw = "vim.lsp.buf.hover"; };
+      key = "<leader>ld";
+      options = {
+        desc = "LSP: Hover docs";
+      };
+    }
+    {
+      action = { __raw = "vim.lsp.buf.code_action"; };
+      key = "<leader>lc";
+      options = {
+        desc = "LSP: Code Action"; 
+      };
+    }
+    {
+      action = { __raw = "vim.lsp.buf.references"; };
+      key = "<leader>lrr";
+      options = {
+        desc = "LSP: References";
       };
     }
   ];
