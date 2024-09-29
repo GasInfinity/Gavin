@@ -1,7 +1,9 @@
 {
   plugins.notify = {
     enable = true;
-    render = { __raw = "compact"; };
+    timeout = 1500;
+
     stages = "static";
+    render = "minimal";
   };
 }

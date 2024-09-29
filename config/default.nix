@@ -21,5 +21,13 @@
     ./neoclip.nix
     ./trouble.nix
     ./sleuth.nix
+    ./barbecue.nix
+    ./ccc.nix
+    ./toggleterm.nix
+    ./undotree.nix
+    ./autopairs.nix 
+    ./transparent.nix
+    ./web-devicons.nix
+    ./code-actions.nix
   ];
 }

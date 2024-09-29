@@ -2,11 +2,11 @@
   viAlias = true;
   vimAlias = true;
     
-  colorschemes.cyberdream = {
+  colorschemes.tokyonight = {
     enable = true;
 
     settings = {
-      transparent = true;
+      dim_inactive = true;
     };
   };
 
@@ -31,6 +31,7 @@
     smarttab = true;
 
     clipboard = "unnamedplus";
+    mouse = ""; # I've had enough with my trackpad...
 
     cursorline = true;
 
