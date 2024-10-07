@@ -29,5 +29,6 @@
     ./transparent.nix
     ./web-devicons.nix
     ./code-actions.nix
+    ./presence.nix
   ];
 }

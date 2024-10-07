@@ -41,7 +41,7 @@
 
     scrolloff = 8;
 
-    completeopt = "menu,menuone,noinsert,noselect";
+    completeopt = "menu,menuone,noselect";
   };
   
   globals = {
