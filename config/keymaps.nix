@@ -154,19 +154,5 @@
         desc = "Toggle transparency";
       };
     }
-    {
-      action = "<cmd>CccHighlighterToggle<cr>";
-      key = "<leader>mch";
-      options = {
-        desc = "Highlight colors";
-      };
-    }
-    {
-      action = "<cmd>CccPick<cr>";
-      key = "<leader>mcp";
-      options = {
-        desc = "Pick/Replace color";
-      };
-    }
   ];
 }

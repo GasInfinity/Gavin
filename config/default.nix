@@ -22,7 +22,6 @@
     ./trouble.nix
     ./sleuth.nix
     ./barbecue.nix
-    ./ccc.nix
     ./toggleterm.nix
     ./undotree.nix
     ./autopairs.nix 
