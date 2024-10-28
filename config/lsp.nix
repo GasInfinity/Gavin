@@ -11,6 +11,7 @@
       lua_ls.enable = true;
       clangd.enable = true;
       java_language_server.enable = true;
+      ts_ls.enable = true;
     };
   };
 }
