@@ -1,4 +1,4 @@
-{
+{ pkgs, ... }: {
   plugins.lsp = {
     enable = true;
 
@@ -12,7 +12,10 @@
 
       lua_ls.enable = true;
 
-      superhtml.enable = true;
+      superhtml = {
+        enable = true;
+        package = pkgs.superhtml;
+      };
       tailwindcss.enable = true;
       ts_ls.enable = true;
 
