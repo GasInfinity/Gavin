@@ -17,7 +17,10 @@
       ts_ls.enable = true;
 
       zls.enable = true;
-      ziggy.enable = true;
+      ziggy = {
+        enable = true;
+        package = null;
+      };
     };
   };
 }
