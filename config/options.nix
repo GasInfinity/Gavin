@@ -2,12 +2,8 @@
   viAlias = true;
   vimAlias = true;
     
-  colorschemes.tokyonight = {
+  colorschemes.cyberdream = {
     enable = true;
-
-    settings = {
-      dim_inactive = true;
-    };
   };
 
   performance = {

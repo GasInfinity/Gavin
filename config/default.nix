@@ -29,5 +29,8 @@
     ./web-devicons.nix
     ./code-actions.nix
     ./presence.nix
+    ./rainbow-delimiters.nix
+    ./comment.nix
+    ./ts-autotag.nix
   ];
 }
