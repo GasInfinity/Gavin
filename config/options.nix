@@ -2,7 +2,7 @@
   viAlias = true;
   vimAlias = true;
     
-  colorschemes.cyberdream = {
+  colorschemes.tokyonight = {
     enable = true;
   };
 
