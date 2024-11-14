@@ -2,6 +2,13 @@
   plugins.treesitter = {
     enable = true;
 
-    # Allow all grammars, why not?
+    settings = {
+      highlight = {
+        enable = true;
+      };
+      indent = {
+        enable = true;
+      };
+    };
   };
 }
