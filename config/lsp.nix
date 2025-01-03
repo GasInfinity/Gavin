@@ -9,6 +9,8 @@
       
       omnisharp.enable = true;
       java_language_server.enable = true;
+      kotlin_language_server.enable = true;
+      gradle_ls.enable = true;
 
       lua_ls.enable = true;
 
