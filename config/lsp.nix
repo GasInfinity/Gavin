@@ -10,7 +10,10 @@
       omnisharp.enable = true;
       java_language_server.enable = true;
       kotlin_language_server.enable = true;
-      gradle_ls.enable = true;
+      gradle_ls = {
+        enable = true;
+        package = pkgs.vscode-extensions.vscjava.vscode-gradle;
+      };
 
       lua_ls.enable = true;
 
