@@ -8,7 +8,7 @@
       clangd.enable = true;
       
       omnisharp.enable = true;
-      java_language_server.enable = true;
+      jdtls.enable = true;
       kotlin_language_server.enable = true;
       gradle_ls = {
         enable = true;
