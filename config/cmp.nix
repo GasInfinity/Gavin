@@ -43,9 +43,6 @@
           name = "path";
         }
         {
-          name = "buffer";
-        }
-        {
           name = "calc"; 
         }
       ];

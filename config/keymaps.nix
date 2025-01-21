@@ -61,7 +61,7 @@
       };
     }
     {
-      action = "<cmd>ToggleTerm<cr>";
+      action = "<cmd>ToggleTerm size=12 name=Terminal<cr>";
       key = "<C-t>";
       options = {
         desc = "Toggle terminal";
@@ -108,6 +108,20 @@
       key = "<leader>lrn";
       options = {
         desc = "LSP: Rename";
+      };
+    }
+    {
+      action = { __raw = "vim.lsp.buf.definition"; };
+      key = "<leader>lgg";
+      options = {
+        desc = "LSP: Go to definition";
+      };
+    }
+    {
+      action = { __raw = "vim.lsp.buf.definition"; };
+      key = "<leader>lgt";
+      options = {
+        desc = "LSP: Go to declaration";
       };
     }
     {
