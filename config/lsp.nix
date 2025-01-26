@@ -2,7 +2,6 @@
   plugins.lsp = {
     enable = true;
 
-
     servers = {
       nixd.enable = true;
       clangd.enable = true;
@@ -16,6 +15,15 @@
       };
 
       lua_ls.enable = true;
+      haxe_language_server = {
+        enable = true;
+        package = pkgs.nodejs; # It's literally impossible to build it with a nix flake...
+        cmd = [ "node" "/home/gas/.haxe/server.js" ];
+        filetypes = [
+          "haxe"
+          "hxml"
+        ];
+      };
 
       superhtml = {
         enable = true;

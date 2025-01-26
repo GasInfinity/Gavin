@@ -2,6 +2,7 @@
   # Import all your configuration modules here
   imports = [
     ./options.nix
+    ./filetype.nix
     ./keymaps.nix
     ./bufferline.nix
     ./bufdelete.nix
