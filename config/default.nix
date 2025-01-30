@@ -19,6 +19,8 @@
     ./gitsigns.nix
     ./noice.nix
     ./lsp.nix
+    ./lsp-signature.nix
+    ./lsp-lines.nix
     ./neoclip.nix
     ./trouble.nix
     ./sleuth.nix
@@ -33,5 +35,6 @@
     ./rainbow-delimiters.nix
     ./comment.nix
     ./ts-autotag.nix
+    ./diagnostics.nix
   ];
 }
