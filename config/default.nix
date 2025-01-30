@@ -21,6 +21,7 @@
     ./lsp.nix
     ./lsp-signature.nix
     ./lsp-lines.nix
+    ./lspkind.nix
     ./neoclip.nix
     ./trouble.nix
     ./sleuth.nix

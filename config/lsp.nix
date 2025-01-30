@@ -6,7 +6,23 @@
       nixd.enable = true;
       clangd.enable = true;
       
-      omnisharp.enable = true;
+      omnisharp = {
+        enable = true;
+        settings = {
+          FormattingOptions = {
+            EnableEditorConfigSupport = true;
+            OrganizeImports = true;
+          };
+          RoslynExtensionsSupport = {
+            EnableAnalyzersSupport = true;
+            EnableImportCompletion = true;
+            AnalyzeOpenDocumentsOnly = true;
+          };
+          Sdk = {
+            IncludePrereleases = true;
+          };
+        };
+      };
       jdtls.enable = true;
       kotlin_language_server.enable = true;
       gradle_ls = {
@@ -37,6 +53,9 @@
         enable = true;
         package = null;
       };
+
+      glsl_analyzer.enable = true;
+      jsonls.enable = true;
     };
   };
 }
