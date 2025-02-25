@@ -1,9 +1,11 @@
 {
   plugins.notify = {
     enable = true;
-    timeout = 1500;
 
-    stages = "static";
-    render = "minimal";
+    settings = {
+      timeout = 1500;
+      stages = "slide";
+      render = "compact";
+    };
   };
 }
