@@ -41,14 +41,14 @@
     }
     {
       action = "<cmd>bp<cr>";
-      key = "<C-,>";
+      key = "<C-n>";
       options = {
         desc = "Move to previous buffer";
       };
     }
     {
       action = "<cmd>bn<cr>";
-      key = "<C-.>";
+      key = "<C-m>";
       options = {
         desc = "Move to next buffer";
       };
