@@ -1,6 +1,7 @@
 { pkgs, ... }: {
   plugins.lsp = {
     enable = true;
+    inlayHints = true;
 
     servers = {
       nixd.enable = true;
@@ -48,7 +49,11 @@
       tailwindcss.enable = true;
       ts_ls.enable = true;
 
-      zls.enable = true;
+      zls = {
+        enable = true;
+        package = null;
+      };
+
       ziggy = {
         enable = true;
         package = null;
