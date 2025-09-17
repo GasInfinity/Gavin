@@ -1,0 +1,45 @@
+{ pkgs, ... }: {
+  colorschemes.tokyonight = {
+    enable = true;
+
+    settings = {
+      style = "night";
+    };
+  };
+  
+  plugins.lualine = {
+    enable = true;
+
+    settings = {
+      options = {
+        globalstatus = true;
+
+        ignorefocus = [
+          "neo-tree"
+          "toggleterm"
+          "dashboard"
+        ];
+      };
+    };
+  };
+  
+  plugins.noice = {
+    enable = true;
+  };
+
+  plugins.notify = {
+    enable = true;
+
+    settings = {
+      timeout = 1000;
+      stages = "fade_in_slide_out";
+      render = "compact";
+    };
+  };
+
+  plugins.rainbow-delimiters.enable = true;
+  plugins.todo-comments.enable = true;
+  plugins.web-devicons.enable = true;
+
+  extraPlugins = with pkgs.vimPlugins; [ monaspace-nvim ];
+}

@@ -1,5 +1,5 @@
 {
-  plugins.todo-comments = {
+  plugins.dropbar = {
     enable = true;
   };
 }

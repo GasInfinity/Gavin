@@ -159,14 +159,5 @@
         desc = "LSP: Hide Diagnostics (Trouble)";
       };
     }
-
-    # Misc
-    {
-      action = "<cmd>TransparentToggle<cr>";
-      key = "<leader>mtt";
-      options = {
-        desc = "Toggle transparency";
-      };
-    }
   ];
 }

@@ -1,10 +1,6 @@
 {
   viAlias = true;
   vimAlias = true;
-    
-  colorschemes.tokyonight = {
-    enable = true;
-  };
 
   performance = {
     byteCompileLua.enable = true;
@@ -13,7 +9,7 @@
 
   opts = {
     number = true;
-    relativenumber = false;
+    relativenumber = true;
 
     signcolumn = "yes";
 
@@ -34,7 +30,6 @@
     ruler = true;
 
     gdefault = true;
-
     scrolloff = 8;
 
     completeopt = "menu,menuone,noselect";

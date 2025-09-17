@@ -1,5 +1,5 @@
 {
   diagnostic.settings = {
-    virtual_text = false;
+    virtual_text = true;
   };
 }
