@@ -28,9 +28,6 @@
     ./toggleterm.nix
     ./undotree.nix
     ./autopairs.nix 
-    ./code-actions.nix
-    ./presence.nix
     ./ts-autotag.nix
-    ./diagnostics.nix
   ];
 }

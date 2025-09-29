@@ -1,4 +1,4 @@
-{
+{ lib, ... }: {
   keymaps = [
     {
       action = "<cmd>wincmd h<cr>";
@@ -104,42 +104,42 @@
       };
     }
     {
-      action = { __raw = "vim.lsp.buf.rename"; };
+      action = lib.nixvim.mkRaw "vim.lsp.buf.rename";
       key = "<leader>lrn";
       options = {
         desc = "LSP: Rename";
       };
     }
     {
-      action = { __raw = "vim.lsp.buf.definition"; };
+      action = lib.nixvim.mkRaw "vim.lsp.buf.definition";
       key = "<leader>lgg";
       options = {
         desc = "LSP: Go to definition";
       };
     }
     {
-      action = { __raw = "vim.lsp.buf.definition"; };
+      action = lib.nixvim.mkRaw "vim.lsp.buf.definition";
       key = "<leader>lgt";
       options = {
         desc = "LSP: Go to declaration";
       };
     }
     {
-      action = { __raw = "vim.lsp.buf.hover"; };
+      action = lib.nixvim.mkRaw "vim.lsp.buf.hover";
       key = "<leader>ld";
       options = {
         desc = "LSP: Hover docs";
       };
     }
     {
-      action = { __raw = "require('actions-preview').code_actions"; };
+      action = lib.nixvim.mkRaw "require('actions-preview').code_actions";
       key = "<leader>lc";
       options = {
         desc = "LSP: Code action"; 
       };
     }
     {
-      action = { __raw = "vim.lsp.buf.references"; };
+      action = lib.nixvim.mkRaw "vim.lsp.buf.references";
       key = "<leader>lrr";
       options = {
         desc = "LSP: References";
@@ -157,6 +157,13 @@
       key = "<leader>lth";
       options = {
         desc = "LSP: Hide Diagnostics (Trouble)";
+      };
+    }
+    {
+      action = "<cmd>Cord presence toggle<cr>";
+      key = "<leader>md";
+      options = {
+        desc = "Discord Rich Presence: Toggle";
       };
     }
   ];

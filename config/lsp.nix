@@ -1,4 +1,31 @@
-{ pkgs, ... }: {
+{ lib, pkgs, ... }: {
+  plugins.comment.enable = true;
+  diagnostic.settings.virtual_text = true;
+
+  plugins.actions-preview = {
+    enable = true;
+
+    settings = {
+      diff.ctxlen = 3;
+
+      telescope = {
+        layout_config = {
+          height = 0.9;
+          preview_cutoff = 20;
+          preview_height = lib.nixvim.mkRaw ''
+            function(_, _, max_lines)
+              return max_lines - 15
+            end
+          '';
+        };
+
+        layout_strategy = "vertical";
+        sorting_strategy = "ascending";
+      };
+
+    };
+  };
+
   plugins.lsp = {
     enable = true;
     inlayHints = true;

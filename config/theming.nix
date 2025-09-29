@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+{ lib, pkgs, ... }: {
   colorschemes.tokyonight = {
     enable = true;
 
@@ -41,5 +41,22 @@
   plugins.todo-comments.enable = true;
   plugins.web-devicons.enable = true;
 
+  plugins.cord = {
+    enable = true;
+    settings = {
+      editor.tooltip = "The Based Text Editor";
+
+      display = {
+        theme = "catppuccin";
+      };
+
+      timestamp.enabled = false;
+    };
+  };
+
   extraPlugins = with pkgs.vimPlugins; [ monaspace-nvim ];
+
+  extraConfigLua = ''
+    require("monaspace").setup({})
+  '';
 }
