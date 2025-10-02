@@ -59,20 +59,22 @@
       };
 
       lua_ls.enable = true;
-      haxe_language_server = {
-        enable = true;
-        package = pkgs.nodejs; # It's literally impossible to build it with a nix flake...
-        cmd = [ "/bin/sh" "-c" "node \"$HOME/.haxe/server.js\"" ];
-        filetypes = [
-          "haxe"
-          "hxml"
-        ];
-      };
+      # haxe_language_server = {
+      #   # TODO: Enable this when it has migrated to the new config
+      #   enable = true;
+      #   package = pkgs.nodejs; # It's literally impossible to build it with a nix flake...
+      #   cmd = [ "/bin/sh" "-c" "node \"$HOME/.haxe/server.js\"" ];
+      #   filetypes = [
+      #     "haxe"
+      #     "hxml"
+      #   ];
+      # };
 
       superhtml = {
         enable = true;
-        package = pkgs.superhtml;
+        package = null;
       };
+
       tailwindcss.enable = true;
       ts_ls.enable = true;
 

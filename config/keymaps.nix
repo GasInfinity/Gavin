@@ -61,13 +61,6 @@
       };
     }
     {
-      action = "<cmd>ToggleTerm size=12 name=Terminal<cr>";
-      key = "<C-t>";
-      options = {
-        desc = "Toggle terminal";
-      };
-    }
-    {
       action = "<cmd>UndotreeToggle<cr>";
       key = "<C-u>";
       options = {

@@ -25,7 +25,6 @@
     ./neoclip.nix
     ./trouble.nix
     ./sleuth.nix
-    ./toggleterm.nix
     ./undotree.nix
     ./autopairs.nix 
     ./ts-autotag.nix
