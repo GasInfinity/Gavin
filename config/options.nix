@@ -4,7 +4,7 @@
 
   performance = {
     byteCompileLua.enable = true;
-    # combinePlugins.enable = true; Why it doesn't work with treesitter-haxe-grammer?...
+    # combinePlugins.enable = true; Why it doesn't work with treesitter-haxe-grammar?...
   };
 
   opts = {

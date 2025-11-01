@@ -38,7 +38,7 @@
   };
 
   # TODO: REenable this when it updates in nixpkgs
-  # plugins.rainbow-delimiters.enable = true;
+  plugins.rainbow-delimiters.enable = true;
   plugins.todo-comments.enable = true;
   plugins.web-devicons.enable = true;
 

@@ -2,6 +2,8 @@
   plugins.neo-tree = {
     enable = true;
 
-    closeIfLastWindow = true;
+    settings = {
+      close_if_last_window = true;
+    };
   };
 }
